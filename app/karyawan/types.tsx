@@ -62,3 +62,25 @@ export interface ScheduleType {
     updatedAt: string
     train_details: KeretaType
 }
+
+export interface HistoryType {
+    id: number;
+    purchase_date: string;
+    customer_id: number;
+    schedule_id: number;
+    app_user_token: string;
+    createdAt: string;
+    updatedAt: string;
+    purchases_details: PurchaseDetail[]
+    schedule_details: ScheduleType
+}
+
+export interface PurchaseDetail {
+    id: number
+    purchase_id: number
+    passanger_id: string
+    passanger_name: string
+    seat_number: string
+    createdAt: string
+    updatedAt: string
+}

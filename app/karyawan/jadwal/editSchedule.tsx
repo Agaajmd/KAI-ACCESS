@@ -133,13 +133,11 @@ const EditSchedule = (myProp: props) => {
                                 Waktu kedatangan
                             </small>
                             <br />
-                            <DatePicker
-                                id={`arrived_time`}
-                                className="w-full p-1 outline-none hover:border-b-sky-500"
+                            <DatePicker className="p-1 w-full outline-none focus:border-sky-600 focus:border-b text-black" id="departured-time"
+                                showTimeInput
                                 selected={new Date(arrived_time)}
-                                dateFormat={`dd MMMM yyyy HH:mm`}
-                                onChange={date => setArrivedTime(date || new Date())}
-                            />
+                                dateFormat={`dd-MMMM-yyyy HH:mm`}
+                                onChange={(date) => setArrivedTime(date || new Date())} />
                         </div>
                         <div className="my-2 border rounded-md px-2">
                             <small className="text-xs font-semibold text-sky-500">
