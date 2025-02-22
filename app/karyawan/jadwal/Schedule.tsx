@@ -17,7 +17,7 @@ const showType = (date: string) => {
 }
 const Schedule = async (myProps: Props) => {
     return (
-        <div className="w-full border rounded-xl shadow-lg bg-white p-4 my-4">
+        <div className="w-full border rounded-xl shadow-lg bg-white p-4 my-4 transition-all duration-300 hover:shadow-2xl hover:border-sky-200">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
                 <div className="p-4 border-r md:border-r-2 border-gray-300">
                     <small className="text-sm font-semibold text-sky-700 uppercase">Berangkat Dari</small>

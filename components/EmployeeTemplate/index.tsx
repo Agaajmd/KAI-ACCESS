@@ -50,14 +50,14 @@ const EmployeeTemplate = (myProp: props) => {
                     <Link href="/karyawan/kereta" className="px-4 py-3 rounded-lg bg-white/20 hover:bg-white/30 transition flex items-center gap-3">
                         🚆 Data Kereta
                     </Link>
+                    <Link href="/karyawan/jadwal" className="px-4 py-3 rounded-lg bg-white/20 hover:bg-white/30 transition flex items-center gap-3">
+                        📅 Data Jadwal
+                    </Link>
                     <Link href="/karyawan/admin" className="px-4 py-3 rounded-lg bg-white/20 hover:bg-white/30 transition flex items-center gap-3">
                         👤 Data Admin
                     </Link>
                     <Link href="/karyawan/pelanggan" className="px-4 py-3 rounded-lg bg-white/20 hover:bg-white/30 transition flex items-center gap-3">
                         🧑‍🤝‍🧑 Data Pelanggan
-                    </Link>
-                    <Link href="/karyawan/jadwal" className="px-4 py-3 rounded-lg bg-white/20 hover:bg-white/30 transition flex items-center gap-3">
-                        📅 Data Jadwal
                     </Link>
 
                     <button onClick={handleLogout} className="w-full px-4 py-3 flex justify-center items-center rounded-lg bg-red-500 hover:bg-red-400 transition text-center mt-4 shadow-lg">

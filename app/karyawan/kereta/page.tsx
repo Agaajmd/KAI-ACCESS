@@ -37,12 +37,12 @@ const KeretaPage = async () => {
     return (
         <div className="w-full p-8 bg-gray-100 min-h-screen flex justify-center">
             <div className="bg-white shadow-xl rounded-xl p-8 w-full max-w-5xl">
-                <h1 className="text-3xl font-bold text-gray-900 mb-2">Data Kereta</h1>
-                <p className="text-gray-700 mb-6">Halaman ini memuat daftar kereta api yang tersedia</p>
+                <h1 className="text-3xl font-bold text-gray-800">Data Kereta</h1>
+                <p className="text-gray-600">Halaman ini memuat daftar kereta api yang tersedia</p>
                 <div className="mb-6 flex justify-end">
                     <AddKereta />
                 </div>
-                <div className="space-y-6">
+                <div className="my-4 space-y-4">
                     {dataKereta.map((kereta, index) => (
                         <Train key={`kereta-${index}`} item={kereta} />
                     ))}

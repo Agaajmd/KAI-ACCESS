@@ -16,7 +16,7 @@ const showType = (date: string) => {
 }
 const Schedule = async (myProps: Props) => {
     return (
-        <div className="flex flex-wrap w-full border rounded-lg shadow-lg my-4 p-4 bg-white">
+        <div className="flex flex-wrap w-full border rounded-lg shadow-lg my-4 p-4 bg-white transition-all duration-300 hover:shadow-2xl hover:border-sky-200">
             <div className="w-full md:w-3/12 p-3 flex flex-col border-r">
                 <span className="text-xs font-semibold text-sky-700">Berangkat Dari</span>
                 <strong className="text-lg text-gray-800">{myProps.item.departured_location}</strong>

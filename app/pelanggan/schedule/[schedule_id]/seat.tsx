@@ -40,7 +40,7 @@ const Seat = ({ item, onSave }: Props) => {
                 type="button"
                 onClick={openModal}
                 disabled={item.used}
-                className="size-12 flex items-center justify-center font-semibold rounded-lg bg-sky-500 disabled:bg-gray-400 text-white shadow-md hover:bg-sky-600 transition-all">
+                className="size-12 flex items-center justify-center font-semibold rounded-lg bg-sky-500 disabled:bg-gray-400 text-white shadow-md hover:bg-sky-600 transition-all ">
                 {item.seat_number}
             </button>
 

@@ -129,7 +129,7 @@ const Booking = (myProp: props) => {
             <button
                 type="button"
                 onClick={() => handleSave()}
-                className="w-full mt-4 p-2 bg-green-600 hover:bg-green-500 text-white rounded-lg font-semibold shadow-md transition duration-300 ease-in-out transform hover:scale-70 active:scale-95">
+                className="w-full mt-4 p-2 bg-green-600 hover:bg-green-500 text-white rounded-lg font-semibold shadow-md transition-all duration-300 hover:shadow-2xl hover:border-sky-200">
                 🎫 Pesan Sekarang
             </button>
 

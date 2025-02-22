@@ -53,7 +53,7 @@ const KeretaDetailPage = async ({ params }: Props) => {
     ]);
 
     return (
-        <div className="w-full p-5 bg-white shadow-md rounded-lg">
+        <div className="w-full p-5 bg-white shadow-md rounded-lg ">
             <h1 className="text-2xl font-bold text-gray-800 mb-4">Detail Keberangkatan Kereta</h1>
             <div className="bg-gray-100 p-4 rounded-lg">
                 <table className="w-full text-left text-gray-700">

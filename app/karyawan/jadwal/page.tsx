@@ -49,7 +49,7 @@ const JadwalPage = async () => {
     return (
         <div className="w-full p-8 bg-gray-100 min-h-screen flex justify-center">
             <div className="bg-white shadow-xl rounded-xl p-8 w-full max-w-5xl">
-                <h1 className="text-2xl font-bold text-gray-800">Data Jadwal</h1>
+                <h1 className="text-3xl font-bold text-gray-800">Data Jadwal</h1>
                 <p className="text-md text-gray-600">Halaman ini memuat daftar jadwal kereta yang tersedia</p>
 
                 <div className="mb-6 flex justify-end">

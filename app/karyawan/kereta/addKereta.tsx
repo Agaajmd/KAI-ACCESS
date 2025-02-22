@@ -76,7 +76,7 @@ const AddKereta = () => {
             <ToastContainer containerId={`toastAdd`} />
             <button type="button"
                 onClick={() => openModal()}
-                className="px-4 py-2 rounded-md bg-lime-600 hover:bg-lime-400 text-white">
+                className="px-5 py-2.5 rounded-md bg-lime-600 hover:bg-lime-400 text-white">
                 Tambah kereta
             </button>
             <Modal isShow={show}>

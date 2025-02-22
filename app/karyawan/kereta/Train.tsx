@@ -10,12 +10,12 @@ type props = {
 }
 const Train = (myProp: props) => {
     return (
-        <div className="w-full flex flex-wrap my-2 border shadow-md rounded-md">
+        <div className="w-full flex flex-wrap p-4 my-4  border shadow-lg rounded-xl transition-all duration-300 hover:shadow-2xl hover:border-sky-200">
             <div className="w-full md:w-4/12 p-2 flex flex-col">
                 <small className="text-sm font-medium">
                     Nama Kereta
                 </small>
-                <span>
+                <span className="text-base text-sky-600 hover:underline">
                     <Link href={`/karyawan/kereta/${myProp.item.id}`}>
                         {myProp.item.name}
                     </Link>
