@@ -120,7 +120,7 @@ const AddSchedule = (myProp: props) => {
                         </div>
                         <div className="my-2 border rounded-md px-2">
                             <small className="text-xs font-semibold text-sky-500">
-                                Tiba dari
+                                Tiba di
                             </small>
                             <input type="text" id={`arrived_location`}
                                 value={arrived_location}
