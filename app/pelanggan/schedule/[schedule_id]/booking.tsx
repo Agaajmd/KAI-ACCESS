@@ -107,23 +107,23 @@ const Booking = (myProp: props) => {
             <ToastContainer containerId={`toastBook`} />
             {
                 myProp.wagons.map((wagon, index) => (
-                    <div key={`keyWagon-${index}`}
-                        className="w-full my-2 p-3 rounded-md shadow-md border">
-                        <h3 className="font-semibold my-2">
-                            {wagon.name}
-                        </h3>
-                        <div className="flex flex-wrap gap-3">
-                            {
-                                wagon.seats.map((seat, indexSeat) => (
-                                    <Seat
-                                        key={`keySeat-${index}-${indexSeat}`}
-                                        item={seat}
-                                        onSave={seatBook => handleAddSeat(seatBook)}
-                                    />
-                                ))
-                            }
+                    <div
+                        key={`keyWagon-${index}`}
+                        className="w-full my-2 p-3 rounded-md shadow-md border"
+                    >
+                        <h3 className="font-semibold my-2">{wagon.name}</h3>
+                        <div className="grid grid-cols-5 gap-x-6 gap-y-4">
+                            {wagon.seats.map((seat, indexSeat) => (
+                                <div
+                                    key={`keySeat-${index}-${indexSeat}`}
+                                    className={`${indexSeat % 4 === 2 ? "col-start-4" : ""}`}
+                                >
+                                    <Seat item={seat} onSave={(seatBook) => handleAddSeat(seatBook)} />
+                                </div>
+                            ))}
                         </div>
                     </div>
+
                 ))
             }
             <button

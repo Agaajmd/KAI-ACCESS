@@ -74,7 +74,7 @@ const AddUser = () => {
                 Tambah Admin
             </button>
             <Modal isShow={show}>
-                <form onSubmit={handleSubmit} className="bg-white shadow-lg rounded-xl overflow-hidden">
+                <form onSubmit={handleSubmit} className="bg-white shadow-lg rounded-lg  overflow-hidden">
                     <div className="w-full p-4 bg-lime-600 text-white">
                         <h1 className="font-bold text-xl">Tambah Admin</h1>
                         <span className="text-sm text-lime-200">Pastikan data yang diisi sudah benar</span>

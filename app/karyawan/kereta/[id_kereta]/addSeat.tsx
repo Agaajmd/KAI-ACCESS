@@ -117,10 +117,10 @@ const AddSeat = (myProp: props) => {
 
                     {/* modal footer */}
                     <div className=" w-full p-3 rounded-b-lg flex items-center justify-end gap-2">
-                        <button type="button" onClick={() => closeModal()} className=" px-4 py-2 rounded-md bg-red-700 hover:bg-red-600 text-white">
+                        <button type="button" onClick={() => closeModal()} className=" px-4 py-2 rounded-md bg-slate-700 hover:bg-slate-500 text-white">
                             Close
                         </button>
-                        <button type="submit" className=" px-4 py-2 rounded-md bg-green-700 hover:bg-green-600 text-white">
+                        <button type="submit" className=" px-4 py-2 rounded-md bg-sky-700 hover:bg-sky-500 text-white">
                             Save
                         </button>
 
